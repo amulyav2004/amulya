@@ -6,7 +6,7 @@ import serial
 import time
 
 # Initialize serial port for hardware connection
-serial_port = 'COM9'  # Update with the correct serial port (change to the actual port used by ESP8266)
+serial_port = 'COM10'  # Update with the correct serial port (change to the actual port used by ESP8266)
 try:
     ser = serial.Serial(serial_port, 9600, timeout=1)
     st.success(f"Serial port {serial_port} connected successfully.")
